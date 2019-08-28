@@ -141,12 +141,48 @@ img {
   border-bottom: var(--primary-color) 4px solid;
 }
 
+/*Tab Content 1*/
+.tab-content {
+  padding: 3rem 0;
+  background: #000;
+  color: #fff;
+}
+
+#tab-1-content .tab-1-content-inner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
 /*Container*/
 .container {
   max-width: 70%;
   margin: auto;
   overflow: hidden;
   padding: 0 2rem;
+}
+
+/*Text Style*/
+.text-xl {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.text-lg {
+  font-size: 1.69rem;
+  margin-bottom: 1rem;
+
+  line-height: 2.1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-dark {
+  color: #999;
 }
 
 /*Buttons*/
